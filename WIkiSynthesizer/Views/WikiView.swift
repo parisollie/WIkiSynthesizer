@@ -63,3 +63,7 @@ struct ButtonIcon: View {
 }
 
 
+#Preview {
+    WikiView(search: "SwiftUI")
+        .environment(VoiceViewModel()) // Asegura que tenga un ViewModel en la vista previa
+}
